@@ -27,9 +27,8 @@ body {
 
 /* Container */
 .container {
-  max-width: 1400px;
-  margin: 400px auto 40px; /* empurra os cards para baixo */
-  padding: 0 15px;
+  margin-top: 180px; /* Deixa espaço para o título fixo */
+  padding-bottom: 80px; 
 }
 
 .title {
