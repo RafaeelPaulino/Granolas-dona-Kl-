@@ -31,16 +31,6 @@ A paleta foi escolhida para transmitir sofisticação e leveza, respeitando as o
 - `#014257` → Botões e destaques  
 - `#001a2a` → Texto principal nos cards  
 
----
-
-## 🔤 Fonte  
-Foi utilizada a fonte **Playfair Display** do Google Fonts.  
-Link de importação:  
-```
-https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap
-```
-
----
 
 ## 📂 Estrutura do Projeto  
 ```
