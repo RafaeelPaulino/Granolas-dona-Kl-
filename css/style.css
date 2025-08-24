@@ -35,18 +35,19 @@ html, body {
 /* Título fixo */
 .title {
   position: fixed;
-  top: 200px; /* Fica no topo da página */
-  left: 13%;
+  top: 20px;
+  left: 50%;
   transform: translateX(-50%);
-  background:#014257;
+  background: rgba(145, 164, 171, 0.85);
   padding: 10px 25px;
   border-radius: 8px;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: bold;
   color: #fff;
   z-index: 1000;
+  text-align: center;
+  white-space: nowrap; /* evita quebra feia em desktop */
 }
-
 /* Grid - Ajustando para 4 cards lado a lado */
 .products-grid {
   display: flex;
@@ -141,11 +142,10 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  .products-grid {
-    flex-direction: column;
-    align-items: center;
-  }
-  .card {
-    width: 90%; /* 1 por linha */
+  .title {
+    font-size: 1.2rem; /* reduz tamanho */
+    padding: 8px 15px; /* diminui padding */
+    white-space: normal; /* permite quebrar texto */
+    width: 90%; /* ocupa quase toda a largura */
   }
 }
