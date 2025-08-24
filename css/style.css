@@ -33,12 +33,16 @@ body {
 }
 
 .title {
+  position: fixed;
+  top: 80px; /* Espaço abaixo do header se houver */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(145, 164, 171, 0.8); /* Fundo levemente opaco para legibilidade */
+  padding: 10px 20px;
+  border-radius: 8px;
+  z-index: 1000;
   text-align: center;
-  font-size: 2.2rem;
-  color: #014257;
-  margin: 20px 0 40px;
 }
-
 /* Grid - Ajustando para 4 cards lado a lado */
 .products-grid {
   display: flex;
@@ -118,13 +122,16 @@ body {
 
 /* Footer */
 .footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   background: #014257;
   color: #6f848b;
-  margin-top: 30px;
-}
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  z-index: 1000;
+  }
 
 /* Responsividade */
 @media (max-width: 1200px) {
